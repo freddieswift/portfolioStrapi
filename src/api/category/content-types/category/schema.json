@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "categories",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "tag"
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category"
   },
   "options": {
     "draftAndPublish": true
@@ -18,7 +18,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::article.article",
-      "inversedBy": "tags"
+      "inversedBy": "categories"
     }
   }
 }
