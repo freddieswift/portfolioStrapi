@@ -54,6 +54,9 @@
         "videos",
         "audios"
       ]
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
